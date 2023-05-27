@@ -27,6 +27,7 @@
   font-size: 50px;
 }
 /*Section*/
+
 .card {
   display: grid;
   grid-template-columns: repeat(2fr, 1fr);
@@ -51,6 +52,13 @@
   height: auto;
   margin-bottom: 20px;
   border: 2px solid #8e75d1;
+
+  transition: 0.4s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.card-item:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
 }
 .card-sobre {
   grid-area: card-sobre;
@@ -101,7 +109,10 @@
   border: 2px solid white;
 }
 #section-title {
-  margin-left: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
 }
 .card-sobre-img {
   width: 200px;
