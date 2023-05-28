@@ -5,7 +5,9 @@ body {
   padding: 0;
   min-width: 370px;
 }
-
+a {
+  text-decoration: none;
+}
 .header {
   background: linear-gradient(to right, #fd297b, #ff5864);
   padding: 20px;

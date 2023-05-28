@@ -233,7 +233,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+a {
+  text-decoration: none;
+}
 .card-item {
   width: 300px;
   margin: 10px;
